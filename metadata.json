@@ -1,0 +1,25 @@
+{
+  "name": "loader",
+  "version": "0.0.1",
+  "author": "Ralf Nyren",
+  "license": "Apache-2.0",
+  "summary": "Load Puppet modules from Hiera",
+  "description": "Allow both adding to and removing from the list of classes defined in Hiera",
+  "source": "https://github.com/nyren/puppet-module-loader",
+  "project_page": "https://github.com/nyren/puppet-module-loader",
+  "tags": ["classes", "load", "hiera", "include", "exclude"],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.2.0 < 5.0.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.2.0 < 5.0.0"
+    }
+  ],
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.6.0 < 5.0.0" }
+  ],
+  "data_provider": "hiera"
+}
