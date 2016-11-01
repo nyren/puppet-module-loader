@@ -26,8 +26,9 @@ class loader (
   }
 
   # Iterate class loading using defined resource types
+  $class_names = keys($classes_real)
   if $ensure == 'present' {
-    loader::load { keys($classes_real):
+    loader::load { $class_names :
       classes => $classes_real
     }
   }
