@@ -7,6 +7,8 @@ manifest.
 The purpose of puppet-module-loader is to allow both adding to and *removing
 from* the list of classes defined in Hiera.
 
+[![Build Status](https://travis-ci.org/nyren/puppet-module-loader.svg?branch=master)](https://travis-ci.org/nyren/puppet-module-loader)
+
 # Background
 ------------
 The common pattern for loading modules (classes) through Hiera is to use the
