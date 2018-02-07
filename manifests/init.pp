@@ -29,7 +29,7 @@ class loader (
   $class_names = keys($classes_real)
   if $ensure == 'present' {
     loader::load { $class_names :
-      classes => $classes_real
+      classes => $classes_real,
     }
   }
 }
