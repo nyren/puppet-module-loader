@@ -1,5 +1,5 @@
 {
-  "name": "loader",
+  "name": "nyren-loader",
   "version": "0.0.1",
   "author": "Ralf Nyren",
   "license": "Apache-2.0",
@@ -10,16 +10,12 @@
   "tags": ["classes", "load", "hiera", "include", "exclude"],
   "requirements": [
     {
-      "name": "pe",
-      "version_requirement": ">= 3.2.0 < 5.0.0"
-    },
-    {
       "name": "puppet",
-      "version_requirement": ">= 3.2.0 < 5.0.0"
+      "version_requirement": ">= 3.2.0"
     }
   ],
   "dependencies": [
-    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.6.0 < 5.0.0" }
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.6.0" }
   ],
   "data_provider": "hiera"
 }
