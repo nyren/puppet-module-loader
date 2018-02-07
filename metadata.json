@@ -1,6 +1,6 @@
 {
   "name": "nyren-loader",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Ralf Nyren",
   "license": "Apache-2.0",
   "summary": "Load Puppet modules from Hiera",
