@@ -22,7 +22,7 @@ minimal set of common modules to load. There is no way to define any **exception
 
 # Compatibility
 ---------------
-The loader module is built for use with both Puppet v3 and Puppet v4. The
+The loader module is built for use with both Puppet 3.x, 4.x and 5.x. The
 module is platform independent.
 
 # Examples
